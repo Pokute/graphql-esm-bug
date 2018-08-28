@@ -1,0 +1,17 @@
+{
+  "name": "graphql-esm-bug",
+  "version": "1.0.0",
+  "description": "Test repo for https://github.com/graphql/graphql-js/issues/1479",
+  "main": "",
+  "scripts": {
+    "jsRequire": "node serverWithRequire.js",
+    "esmRequire": "node -r esm serverWithRequire.js",
+    "esmImport": "node -r esm serverWithImport.js"
+  },
+  "author": "Pokute",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.0.80",
+    "graphql-yoga": "^1.16.1"
+  }
+}
